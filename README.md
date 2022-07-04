@@ -1,5 +1,7 @@
-O QUE FOI FEITO:
-Primeiramente criado a classe Employee e criado os atributos passando seu nome, emprego e salário.
-Após isso foi criado a classe de testes utilizando o junit para realizar um teste simples na classe Employee.
-Foi utilizado também o pacote PiTest para fazer os testes mutantes no código e ajustado no pom.xml.
-Após isso foi efetuado os testes porém por algum motivo ele não está encontrando os testes. Tentei procurar mas não consegui resolver :(
+O QUE FOI FEITO DE DIFERENTE:
+Utilizado o Python com o MutPy e feito conforme o exemplo.
+Criado o arquivo main.py com a classe CalculatorTest derivando da classe da lib unittest (TestCase), após isso foi criado no arquivo calculator.py
+a classe Calculator com métodos de divisão, subtração, multiplicação e soma. Após isso foi criado dentro do main.py métodos para testar esses métodos da classe Calculator.
+Logo foi executado os testes.
+ 
+Para executar os testes de mutação foi utilizado esse comando: mut.py --target calculator --unit-test main.py -m
